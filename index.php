@@ -33,10 +33,10 @@
             <h2>MICROSOFT CACHE</h2>
             <p>Researched and designed product features to improve student productivity and organization through a novel visual bookmarking app on Windows.</p>
         </div></a>
-        <div class='portfolio-item'>
+        <a href='https://www.behance.net/gallery/55058171/UPSOLVE' target='_blank'><div class='portfolio-item'>
             <h2>UPSOLVE</h2>
             <p>Designed the new product interface for the legal tech startup Upsolve, aimed at helping individuals easily apply for Chapter 7 bankruptcy.</p>
-        </div>
+        </div></a>
     </div>
 
     <div id='social-bar'>
