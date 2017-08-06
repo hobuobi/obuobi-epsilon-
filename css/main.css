@@ -1,0 +1,147 @@
+body {
+    overflow-x: hidden;
+    margin: 0% 150px;
+    font-family: 'Overpass', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+p {
+    font-size: 3vh;
+    font-weight: 200;
+}
+a {
+    color: #9D19EF;
+}
+#header-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + 300px);
+    margin-left: -150px;
+    padding: 10px 0px;
+    background-color: #511DCC;
+}
+#social-bar {
+    position: fixed;
+    top: 150px;
+    left: 25px;
+    width: 50px;
+}
+.social-item {
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin: 15px 0px;
+    transition: 0.3s;
+}
+.social-item img {
+    height: 100%;
+    filter: grayscale(100%);
+    transition: 0.3s;
+    opacity: 0.35;
+    transition: 0.3s;
+}
+.social-item:hover{
+    border-left: solid 5px #511DCC;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.social-item:hover img{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+#intro {
+    margin: 17% 0%;
+}
+
+#intro h1{ 
+    color: #511DCC;
+    text-shadow: 0px 8px 12px rgba(81,29,204,0.2);
+    font-size: 8vh;
+    font-weight: 900;
+    margin: 0px 0;
+    text-transform: uppercase;
+
+    background: -webkit-linear-gradient(left, #ab28fc, #511DCC);
+	background: linear-gradient(top, #ab28fc, #511DCC);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#intro p { 
+    font-size: 4vh;
+    font-weight: 200;
+    margin: 0px 0;
+    color: #606060;
+}
+
+#projects {
+    display: block;
+    margin-bottom: 5%;
+    padding: 25px 50px;
+    background-color: #511DCC;
+    box-shadow: 0px 0px 30px rgba(81,29,204,0.7);
+    top: 95%;
+    width: calc(100% - 100px);
+    color: white;
+
+    background: -webkit-linear-gradient(left, #9D19EF, #511DCC);
+    background: linear-gradient(top, #9D19EF, #511DCC);
+    
+    transition: 0.3s;
+}
+.portfolio-item {
+    width: 100%;
+    margin-left: -50px;
+    padding: 25px 50px;
+    border-bottom: solid 1px white;
+    transition: 0.3s;
+}
+.portfolio-item:hover {
+    /* 
+    background-color: rgba(255,255,255,0.2);
+    */
+    background-color: white;
+    color: #511DCC;
+    cursor: pointer;    
+}
+#projects a{
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0% 5%;
+        overflow-x: hidden;
+    }
+    #header-bar {
+        height: 2%;
+    }
+    #intro h1 {
+        font-size: 7vh;
+        width: 90%;
+    }
+    #intro p {
+        font-size: 3vh;
+    }
+    #social-bar {
+        position: relative;
+        margin: auto;
+        height: 50px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+    #social-bar div {
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    #projects {
+        width: calc(100% - 100px);
+        margin-bottom: 2%;
+    }
+}
