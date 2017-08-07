@@ -13,6 +13,8 @@ p {
 }
 a {
     color: #9D19EF;
+    border-bottom: solid 1px #9D19EF;
+    text-decoration: none; 
 }
 #header-bar {
     position: absolute;
