@@ -27,7 +27,8 @@ a {
 }
 #social-bar {
     position: fixed;
-    top: 150px;
+    top: 50%;
+    transform: translateY(-50%);
     left: 25px;
     width: 50px;
 }
