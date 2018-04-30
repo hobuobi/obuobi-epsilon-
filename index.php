@@ -14,7 +14,7 @@
     <div id='intro'>
     <h1>Humphrey Obuobi</h1>
     <p>is a product designer and engineer studying Bioengineering and Computer Science at Harvard. 
-        Currently at <a href='http://www.microsoft.com' target='_blank'>Microsoft</a> and <a href='http://dev.hsa.net' target='_blank'>DEV.</a> Formerly at <a href='http://www.ideocolab.com' target='_blank'>IDEO CoLab</a> and the <a href='http://wyss.harvard.edu' target='_blank'>Wyss Institute.</a></p>
+        Currently Head of Design at <a href='http://dev.hsa.net' target='_blank'>DEV, </a>soon to be an Associate Product Manager at <a href='https://www.google.com/about/' target='_blank'>Google.</a> Formerly at <a href='http://www.microsoft.com' target='_blank'>Microsoft, </a><a href='http://www.ideocolab.com' target='_blank'>IDEO CoLab,</a> and the <a href='http://wyss.harvard.edu' target='_blank'>Wyss Institute.</a></p>
     <br>
     <p>Check out what I'm working on below.</p>
     </div>
